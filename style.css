@@ -1,12 +1,15 @@
+*{
+  background-color:#2F004D;
+  color: #f7e9e1;
+}
 header{
-  background:url("background.jpg") 50% 50%;
-  /*width:100px;*/
-  /*height:100px;*/
-  background-position: bottom left;
-  -webkit-filter: grayscale(100%);
-  /*-webkit-filter: blur(5px);*/
+  background:url("image/background.jpg");
+  background-position: 0% 45%;
+  background-size: 100%;
+  -webkit-filter: grayscale(100%) blur(1px);
 }
 .header_title{
   padding:100px 0;
   text-align:center;
+  -webkit-filter:none;
 }
