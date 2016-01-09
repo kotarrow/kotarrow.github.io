@@ -1,0 +1,12 @@
+header{
+  background:url("background.jpg") 50% 50%;
+  /*width:100px;*/
+  /*height:100px;*/
+  background-position: bottom left;
+  -webkit-filter: grayscale(100%);
+  /*-webkit-filter: blur(5px);*/
+}
+.header_title{
+  padding:100px 0;
+  text-align:center;
+}
