@@ -1,6 +1,9 @@
-*{
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
+body{
+  font-family: 'Noto Sans JP', sans-serif;
   background-color:#2F004D;
-  color: #f7e9e1;
+  color: #F7E9E1;
 }
 header{
   background:url("image/background.jpg");
@@ -8,8 +11,17 @@ header{
   background-size: 100%;
   -webkit-filter: grayscale(100%) blur(1px);
 }
-.header_title{
+header h1{
   padding:100px 0;
   text-align:center;
-  -webkit-filter:none;
+  -webkit-filter:grayscale(0%) blur(0%);
 }
+.table1{
+  text-align:center;
+}
+.Thumbnail{
+  /*text-align:center;*/
+  width:40%;
+  /*height:50%;*/
+}
+
